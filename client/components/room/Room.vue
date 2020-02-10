@@ -88,7 +88,7 @@
                     <form @submit="handleEditRoom" slot="body" class="form form--nbs pt-3">
                         <div class="form__input-group">
                             <ion-icon name="pricetags" class="form__icon"></ion-icon>
-                            <input
+                             <input
                                 type="text"
                                 name="roomName"
                                 class="form__control"
@@ -96,7 +96,8 @@
                                 pattern=".{3,20}"
                                 required
                                 v-model.trim="newRoomName"
-                            />
+                                    />
+                        
                             <label for="roomName" class="form__label">New Room name</label>
                         </div>
                         <Error :errors="errors" />

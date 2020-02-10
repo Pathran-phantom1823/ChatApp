@@ -8,7 +8,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: skyblue;
     z-index: 20;
     transition: opacity 1s ease;
     @include flex-center();
@@ -17,7 +17,7 @@
         font-family: 'Work Sans';
         width: 500px;
         height: 500px;
-        background: #18191c;
+        background: #335fe4;
         border-radius: 5px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
         color: black;

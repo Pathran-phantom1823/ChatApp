@@ -7,7 +7,7 @@
             v-on:keyup="triggerMessageSend"
             data-gramm_editor="false"
         ></textarea>
-        <button class="btn btn--clear btn--info m-0 u-border-rad-0" @click="sendMessage">Send</button>
+        <button class="btn  btn--info m-0" @click="sendMessage">Send</button>
     </div>
 </template>
 
@@ -66,4 +66,12 @@ export default {
 
 
 <style lang="scss" scoped>
+@import '@/assets/scss/views/chat.scss';
+// .chat__input{
+//      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);   
+//         border-radius: 5px;
+//         background-color: rgba(252, 253, 253, 0.808);
+        
+//         backdrop-filter: blur(5px);
+// }
 </style>

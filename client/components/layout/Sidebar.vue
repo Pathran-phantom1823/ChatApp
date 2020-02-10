@@ -40,7 +40,7 @@ export default {
     height: 100vh;
     position: fixed;
     left: 0;
-    background: rgba($color: #101113, $alpha: 0.9);
+    background-color:transparent;
     width: 300px;
     overflow: auto;
     display: flex;
