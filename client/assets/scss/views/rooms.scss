@@ -1,7 +1,8 @@
 @import '../abstract/variables.scss';
 
 .rooms {
-    background: skyblue;
+    background: #0066ff;
+    border-radius: 3em;
     box-shadow: $primary-container-box-shadow;
     width: 60%;
     max-width: 600px;

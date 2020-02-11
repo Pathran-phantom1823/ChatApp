@@ -42,7 +42,7 @@ const UserSchema = new Schema(
             default: null
         },
         image: {
-            type: String,
+            type: Buffer,
             default: null
         },
         location: {

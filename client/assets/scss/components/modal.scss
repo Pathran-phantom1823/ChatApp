@@ -8,7 +8,9 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background: skyblue;
+    background-image: url('https://wallpaperboat.com/wp-content/uploads/2019/09/anime-sword-art-online-alicization-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     z-index: 20;
     transition: opacity 1s ease;
     @include flex-center();
@@ -17,10 +19,10 @@
         font-family: 'Work Sans';
         width: 500px;
         height: 500px;
-        background: #335fe4;
+        background: rgba(0, 0, 0, 0.5);
         border-radius: 5px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
-        color: black;
+        color: white;
         position: absolute;
         @include center();
         transition: opacity 1s ease, transform 1s cubic-bezier(0.42, 0, 0.2, 1.51);

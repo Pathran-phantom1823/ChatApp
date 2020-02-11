@@ -118,4 +118,5 @@ export default {
 
 
 <style lang="scss" scoped>
+@import '@/assets/scss/views/chat.scss';
 </style>

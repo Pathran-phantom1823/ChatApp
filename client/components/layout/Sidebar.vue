@@ -40,13 +40,14 @@ export default {
     height: 100vh;
     position: fixed;
     left: 0;
-    background-color:transparent;
+    background:rgba(0,0,0, .4);
     width: 300px;
     overflow: auto;
     display: flex;
     flex-flow: column;
     transition: all 0.5s ease;
     z-index: 10;
+
 
     &__header {
         display: flex;

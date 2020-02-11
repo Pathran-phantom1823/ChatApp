@@ -2,8 +2,8 @@
     <header>
         <nav class="nav">
             <div class="navbar__brand">
-                <ion-icon name="rocket" class="navbar__icon navbar__icon--logo"></ion-icon>
-                <router-link to="/" class="navbar__textbrand">Astro Chat</router-link>
+                <ion-icon name="chatbubbles" class="navbar__icon navbar__icon--logo"></ion-icon>
+                <router-link to="/" class="navbar__textbrand">Chat App</router-link>
             </div>
             <span class="navbar__toggle">
                 <ion-icon
@@ -21,15 +21,6 @@
                 </li>
             </ul>
             <ul class="navbar__nav navbar__nav--right" v-if="!isAuthorized">
-                <li class="nav__item">
-                    <a
-                        href="https://github.com/luvuong-le/astro-chat"
-                        target="_blank"
-                        class="nav__link"
-                    >
-                        <ion-icon name="logo-github" class="navbar__icon"></ion-icon>
-                    </a>
-                </li>
                 <li class="nav__item">
                     <router-link to="/login" class="nav__link nav__link--rounded">Login</router-link>
                 </li>

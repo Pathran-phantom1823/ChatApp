@@ -1,3 +1,7 @@
+
+.section__title{
+    color: #0066ff;
+}
 .infobox {
     position: relative;
     padding: 0em 1em;
@@ -8,7 +12,8 @@
         width: 480px;
         margin: 0 auto 3rem auto;
         padding: 3em 1em;
-        background: skyblue;
+        background: #0066ff;
+        border-radius: 3em;
         box-shadow: 1px 1px 1px 1px #000;
         transform: translateY(30px);
 

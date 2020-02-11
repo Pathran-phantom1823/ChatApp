@@ -11,12 +11,17 @@
 .btn{
     border-radius: 3em;
 }
+.chat__c-messagelist{
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto
+}
 
 .chat {
     height: 100%;
     position: relative;
     display: flex;
-    background-image: url('https://lh3.googleusercontent.com/proxy/9L8V634IyGNbMHQvRwAqSFhrm36I-DJ6dlQzKGlv1rfVpHFq4k8IXgaZpZ-17S_6TfOG0akzaRlnUXKLZARJZiqH0fPOBXumPUsTboCRMzLagTC24KMgtk7rEcQXqS73tULQPLpVPxmZZkCPw9dgC-G14QSXvQGgvQqBFKZeKXA');
+    background-image: url('https://wallpaperhd.wiki/wp-content/uploads/2018/04/sao-wallpaper-hd-asuna-kirito-wallpaper-1920x1200-zFEjQW.jpg');
     background-repeat:no-repeat ;
     background-size: cover;
     @include respond(phone) {

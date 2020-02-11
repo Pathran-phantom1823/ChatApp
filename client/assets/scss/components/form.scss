@@ -1,5 +1,5 @@
 .section__heading, .section__lead{
-    color: skyblue
+    color: #0066ff
 }
 .form {
     position: relative;
@@ -7,7 +7,7 @@
     width: 480px;
     margin: 0 auto;
     padding: 3em 1em;
-    background: skyblue;
+    background: #0066ff;
     box-shadow: 1px 1px 1px 1px #000;
     transform: translateY(30px);
     border-radius: 3em;
@@ -126,7 +126,7 @@
         text-align: center;
         font-size: 0.9em;
         line-height: 1.5em;
-        color: rgba(23, 99, 212, 0.8);
+        color: rgba(248, 248, 248, 0.925);
     }
 
     &__error {
